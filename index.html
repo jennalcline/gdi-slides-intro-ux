@@ -62,6 +62,14 @@ tr:nth-child(even) {
   width: 25%;
   padding: 2px;
 }
+			
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 		
 	</head>
